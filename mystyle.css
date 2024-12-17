@@ -1,0 +1,397 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    /* Evita scroll horizontal */
+}
+
+
+.container {
+    position: relative;
+    /* Permite posicionar elementos hijos */
+    width: 100%;
+    /* Asegura que ocupe todo el ancho */
+}
+
+.background {
+    position: absolute;
+    /* Se coloca detrás del contenido */
+    width: 100%;
+    /* Asegura que el fondo ocupe todo el ancho */
+    height: auto;
+    /* Mantiene las proporciones de la imagen */
+    z-index: -1;
+    /* Envía el fondo detrás del contenido */
+}
+
+.content {
+    position: relative;
+    /* Coloca el contenido en el flujo normal */
+    z-index: 1;
+    /* Asegura que el contenido esté por encima */
+    padding: 6%;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.videoV {
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #CECECE;
+    width: 100%;
+    /* Ocupa el 80% del contenedor */
+    height: auto;
+    /* Mantiene las proporciones correctas */
+    aspect-ratio: 9 / 16;
+    /* Define que el video sea vertical */
+    object-fit: cover;
+    /* Asegura que el contenido se ajuste correctamente */
+}
+
+.videoH {
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #CECECE;
+    width: 100%;
+    /* Ocupa el 80% del contenedor */
+    height: auto;
+    /* Mantiene las proporciones correctas */
+    aspect-ratio: 16 / 9;
+    /* Define que el video sea vertical */
+    object-fit: cover;
+    /* Asegura que el contenido se ajuste correctamente */
+}
+
+.videoCC {
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #CECECE;
+    width: 100%;
+    /* Ocupa el 80% del contenedor */
+    height: auto;
+    /* Mantiene las proporciones correctas */
+    aspect-ratio: 4 / 5;
+    /* Define que el video sea vertical */
+    object-fit: cover;
+    /* Asegura que el contenido se ajuste correctamente */
+}
+
+.video4 {
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #CECECE;
+    width: 100%;
+    /* Ocupa el 80% del contenedor */
+    height: auto;
+    /* Mantiene las proporciones correctas */
+    aspect-ratio: 1 / 1;
+    /* Define que el video sea vertical */
+    object-fit: cover;
+}
+
+.gifs1 {
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #CECECE;
+    width: 100%;
+
+}
+
+.gifst {
+    width: 100%;
+
+}
+
+.gifsh1 {
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #CECECE;
+    width: 85%;
+
+}
+
+.uno {
+    margin-top: 75.7%;
+}
+
+.dos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Ho1 {
+    width: 35%;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+}
+
+
+.Ho2 {
+    width: 20%;
+    height: auto;
+}
+
+
+.Ho3 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    /* Mantiene los elementos en columna */
+    justify-content: space-between;
+    /* Alinea los elementos verticalmente (si hay espacio extra) */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+}
+
+.Ve1 {
+    width: 86%;
+
+
+}
+
+.Ve2 {
+    width: 86%;
+}
+
+.Ho4 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.tres {
+    margin-top: 19.5%;
+}
+
+.cuatro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Hor1 {
+    width: 35.5%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+.Hor1 iframe {
+    width: 75%;
+}
+
+.Hor2 {
+    width: 28%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+.Hor2 img {
+    width: 65%;
+}
+
+.Hor3 {
+    width: 36.5%;
+    display: flex;
+    flex-direction: column;
+    /* Mantiene los elementos en columna */
+    justify-content: flex-start;
+    /* Alinea los elementos verticalmente (si hay espacio extra) */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+}
+
+.Ver1 {
+    width: 95%;
+}
+
+.Ver2 {
+    margin-top: 5%;
+    width: 95%;
+}
+
+.cinco {
+    margin-top: 22.5%;
+}
+
+.seis {
+    padding-left: 20.2%;
+    padding-right: 18.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Hori1 {
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    /* Mantiene los elementos en columna */
+    justify-content: space-between;
+    /* Alinea los elementos verticalmente (si hay espacio extra) */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+}
+
+.Vert1 {
+    width: 98%;
+}
+
+.Vert2 {
+    width: 98%;
+}
+
+.Hori2 {
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    /* Mantiene los elementos en columna */
+    justify-content: space-between;
+    /* Alinea los elementos verticalmente (si hay espacio extra) */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+}
+
+.Vert11 {
+    width: 85%;
+}
+
+.Vert22 {
+    width: 85%;
+}
+
+.Hori3 {
+    width: 36%;
+}
+
+.siete {
+    margin-top: 18.5%;
+}
+
+.ocho {
+    padding-left: 19%;
+    padding-right: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Horiz1 {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    /* Mantiene los elementos en columna */
+    justify-content: space-between;
+    /* Alinea los elementos verticalmente (si hay espacio extra) */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+}
+
+.Verti1 {
+    width: 100%;
+}
+
+.Verti2 {
+    width: 100%;
+}
+
+.Horiz2 {
+    width: 52%;
+}
+
+.Verti11 {
+    width: 100%;
+}
+
+.nueve {
+    margin-top: 20%;
+}
+
+.diez {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Horizo1 {
+    width: 28%;
+}
+
+.Horizo2 {
+    width: 26%;
+}
+
+
+.Horizo3 {
+    width: 38.5%;
+    display: flex;
+    flex-direction: column;
+    /* Mantiene los elementos en columna */
+    justify-content: space-between;
+    /* Alinea los elementos verticalmente (si hay espacio extra) */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+}
+
+.Vertic1 {
+    width: 100%;
+}
+
+.Vertic2 {
+    width: 100%;
+}
+
+.once {
+    margin-top: 47.5%;
+}
+
+.doce {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.trece {
+    padding-top: 3.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.Horizont1 {
+    width: 59%;
+}
+
+.catorce {
+    padding-top: 81.5%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.zorrito {
+    transform: translateX(6.4%);
+    width: 40%;
+}
+
+.quince {
+
+    padding-top: 6.5%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Horizonta1 {
+    width: 99%;
+}
+
+.link {}
