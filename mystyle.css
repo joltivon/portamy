@@ -8,6 +8,38 @@ body {
     /* Evita scroll horizontal */
 }
 
+p,
+a,
+button {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 1vw;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffffff;
+    border: transparent;
+}
+.idiomas{
+    position: absolute;
+    /* Se coloca detrás del contenido */
+    width: 100%;
+    /* Asegura que el fondo ocupe todo el ancho */
+    height: auto;
+    /* Mantiene las proporciones de la imagen */
+    z-index: 2;
+    margin-top: 5.3%;
+    margin-left: 90%;
+    
+}
+
 
 .container {
     position: relative;
@@ -232,6 +264,15 @@ body {
     justify-content: space-between;
 }
 
+.seis img {
+    border-radius: 0px;
+}
+
+.seis iframe {
+    border-radius: 0px;
+}
+
+
 .Hori1 {
     width: 26%;
     display: flex;
@@ -285,6 +326,10 @@ body {
     justify-content: space-between;
 }
 
+.ocho iframe {
+    border-radius: 0px;
+}
+
 .Horiz1 {
     width: 44%;
     display: flex;
@@ -319,6 +364,14 @@ body {
 .diez {
     display: flex;
     justify-content: space-between;
+}
+
+.diez img {
+    border-radius: 0px;
+}
+
+.diez iframe {
+    border-radius: 0px;
 }
 
 .Horizo1 {
@@ -370,7 +423,7 @@ body {
 }
 
 .catorce {
-    padding-top: 81.5%;
+    padding-top: 85%;
     width: 100%;
     display: flex;
     justify-content: end;
@@ -378,13 +431,18 @@ body {
 }
 
 .zorrito {
-    transform: translateX(6.4%);
-    width: 40%;
+    transform: translateX(6.8%);
+    width: 37.2%;
+}
+
+.zorrito img {
+    border-radius: 0px;
+
 }
 
 .quince {
 
-    padding-top: 6.5%;
+    padding-top: 4.5%;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -394,4 +452,110 @@ body {
     width: 99%;
 }
 
-.link {}
+@media (max-width: 500px) {
+    .videoV {
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #CECECE;
+        width: 100%;
+        /* Ocupa el 80% del contenedor */
+        height: auto;
+        /* Mantiene las proporciones correctas */
+        aspect-ratio: 9 / 16;
+        /* Define que el video sea vertical */
+        object-fit: cover;
+        /* Asegura que el contenido se ajuste correctamente */
+    }
+
+    .videoH {
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #CECECE;
+        width: 100%;
+        /* Ocupa el 80% del contenedor */
+        height: auto;
+        /* Mantiene las proporciones correctas */
+        aspect-ratio: 16 / 9;
+        /* Define que el video sea vertical */
+        object-fit: cover;
+        /* Asegura que el contenido se ajuste correctamente */
+    }
+
+    .videoCC {
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #CECECE;
+        width: 100%;
+        /* Ocupa el 80% del contenedor */
+        height: auto;
+        /* Mantiene las proporciones correctas */
+        aspect-ratio: 4 / 5;
+        /* Define que el video sea vertical */
+        object-fit: cover;
+        /* Asegura que el contenido se ajuste correctamente */
+    }
+
+    .video4 {
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #CECECE;
+        width: 100%;
+        /* Ocupa el 80% del contenedor */
+        height: auto;
+        /* Mantiene las proporciones correctas */
+        aspect-ratio: 1 / 1;
+        /* Define que el video sea vertical */
+        object-fit: cover;
+    }
+
+    .gifs1 {
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #CECECE;
+        width: 100%;
+
+    }
+
+    .gifst {
+        width: 100%;
+
+    }
+
+    .gifsh1 {
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #CECECE;
+        width: 85%;
+
+    }
+
+    .tres {
+        margin-top: 18%;
+    }
+
+    .siete {
+        margin-top: 16.8%;
+    }
+
+    .nueve {
+        margin-top: 18.5%;
+    }
+
+    .trece {
+        padding-top: 2.2%;
+    }
+
+    .catorce {
+        padding-top: 83.6%;
+    }
+
+    .quince {
+        padding-top: 2.5%;
+    }
+}
